@@ -7,12 +7,12 @@ Generate weekly report and save it to a specified file. Modified from [pkyeck/gi
 # Usage:
 
 ```bash
-curl -O "https://raw.githubusercontent.com/yeatse/git-log-weekly-report/master/git-weekly-report.sh"
-chmod +x git-weekly-report.sh
-./git-weekly-report.sh -r <path-to-your-repository>  # log file will be saved to yyyy-MM-dd.log.
+$ curl -O "https://raw.githubusercontent.com/yeatse/git-log-weekly-report/master/git-weekly-report.sh"
+$ chmod +x git-weekly-report.sh
+$ ./git-weekly-report.sh -r <path-to-your-repository>  # log file will be saved to yyyy-MM-dd.log.
 
 # Or a little more complicated:
-./git-weekly-report.sh -s last.Month -e yesterday -a someone -o logfile.log  # git log between last month and yesterday will be output.
+$ ./git-weekly-report.sh -s last.Month -e yesterday -a someone -o logfile.log  # git log between last month and yesterday will be output.
 ```
 
 # Sample output:
